@@ -1,0 +1,289 @@
+/*обнуляем стилии*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+/*конец обнуления*/
+
+.fon1 {
+	background-image: url("./assets/images/fon1.jpg");
+	width: 100%;
+	width-max: 1440px;
+	height: 100vh;
+	height-max: 567px;
+}
+.star {
+	display: flex;
+	justify-content: center;
+}
+.textyalow {
+	text-transform: uppercase;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-left: 5px;
+	color: #fff;
+}
+.nav-link {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #b99403;
+	padding: 0;
+}
+.iconnav {
+	margin-right: 11px;
+}
+.nav-item {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-color: #f5c506;
+	width: 172px;
+	height: 41px;
+	padding-top: 5px;
+	font-size: 12px;
+	border: 0.25px solid #b99403;
+}
+.nav-list {
+	display: flex;
+	box-shadow: -4px -4px rgba(185, 148, 3, 0.3), -8px -8px rgba(185, 148, 3, 0.3);
+	margin-top: 40px;
+}
+.header {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px 90px 0 90px;
+}
+/*главный экран*/
+.firstscrin {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 55px;
+}
+.maintextbox {
+	text-align: center;
+	font-size: 46px;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 1.5;
+	padding-top: 90px;
+	padding-right: 5%;
+}
+.tv {
+	width: 548px;
+	height: 331px;
+	padding-left: 20px;
+}
+/*second screen*/
+.secondscreen {
+	display: flex;
+	justify-content: space-around;
+	height: 213px;
+	padding-bottom: 40px;
+	align-items: flex-end;
+}
+h4 {
+	font-size: 19px;
+	text-transform: uppercase;
+	padding-top: 22px;
+}
+/*threet screen*/
+.threetscreen {
+	background-image: url("./assets/images/fon2.jpg");
+	height: 509px;
+}
+h2 {
+	font-size: 27px;
+	color: #fff;
+	text-transform: uppercase;
+	padding-top: 40px;
+	margin-left: 12%;
+}
+.leftbox {
+	background-color: #ec9e03;
+	width: 340px;
+	height: 230px;
+	font-size: 18px;
+	color: #fff;
+	padding: 33px 33px 0 33px;
+	line-height: 1.5;
+}
+.centrbox {
+	background-image: url("./assets/images/image2.jpg");
+	width: 340px;
+	height: 230px;
+}
+.rightbox {
+	background-color: #ec9e03;
+	width: 340px;
+	height: 230px;
+}
+.videobox {
+	display: flex;
+	justify-content: center;
+	padding-top: 43px;
+}
+.iconplusleft {
+	margin-left: 100%;
+	margin-top: 22%;
+}
+.playbutton {
+	padding-left: 40%;
+	padding-top: 25%;
+	padding-right: 40%;
+}
+.rightbox {
+	padding-left: 6%;
+	padding-top: 3%;
+}
+.twitter {
+	margin-bottom: 15%;
+}
+.iconplusright {
+	padding-left: 25%;
+}
+.boxdata {
+	background-color: #ddb101;
+	width: 112px;
+	height: 85px;
+	margin-left: 12.2%;
+	text-align: center;
+	padding-top: 16px;
+	margin-bottom: 46px;
+}
+.april {
+	font-size: 15px;
+	color: #bd7b21;
+}
+.number25 {
+	font-size: 38px;
+	font-weight: bold;
+	color: #fff;
+}
+.linescrool {
+	margin: 0 17% 0 17%;
+}
+/*four screen*/
+.fourscreen {
+	background-image: url("/assets/images/fon3.jpg");
+	height: 493px;
+}
+.fourscreencenter {
+	display: flex;
+	justify-content: space-around;
+}
+.text4 {
+	font-size: 16px;
+	color: #a9a9a7;
+	line-height: 2;
+}
+h2 {
+	color: #f5c506;
+	margin-left: 33%;
+	/*margin-top: 50px;*/
+	margin-bottom: 15px;
+}
+.text4 {
+	margin-top: 80px;
+}
+/*footer*/
+.footerbox {
+	background-image: url("/assets/images/footerfon2.png");
+	height: 65px;
+	box-shadow: 0px -5px 5px rgba(15, 15, 15);
+}
+.footerstar {
+	display: flex;
+}
+.footerimg {
+	width: 55px;
+	height: 55px;
+	margin-top: 5px;
+	margin-left: 8%;
+}
+.footertextyalow {
+	font-size: 27px;
+	color: #fff;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+/*ааааадаптацияяяяяя*/
+@media (min-width: 640px) and (max-width: 960px) {
+	* {
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	.fon1 {
+		background-image: none;
+		height: 386px;
+	}
+	.header {
+		width: 100%;
+		height: 71px;
+	}
+	.star {
+		background-color: #575757;
+		width: 186px;
+	}
+	.img {
+		width: 43px;
+		height: 43px;
+	}
+	.textyalow {
+		font-size: 16px;
+	}
+	.nav-list {
+		box-shadow: none;
+		margin-top: 0;
+	}
+	.textyalow {
+		margin-top: 0;
+	}
+}
