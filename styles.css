@@ -293,9 +293,7 @@ h2 {
 
 /*аааааааааадаптация мобилка */
 @media (max-width: 639px) {
-	.star {
-		
-	}
+   
 	.firstscrin {
 		display: none;
 	}
@@ -311,15 +309,43 @@ h2 {
 	.footerbox {
 		display: none;
 	}
-   .nav-list {
+   * {
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	.fon1 {
+		background-image: none;
+		height: 386px;
+	}
+	.header {
       display: flex;
-      box-shadow: none;
-      margin-top: 40px;
-   }
-   .starmobile {
-      display: block;
-   }
-   .star {
-      display: none;
+		width: 100%;
+      max-width: 640px;
+		height: 71px;
+      padding: 0;
+	}
+	.star {
+		background-color: #575757;
+		width: 94vw;
+      height: 63px;
+	}
+	.img {
+		width: 40px;
+		height: 40px;
+	}
+	.textyalow {
+		font-size: 16px;
+	}
+	.nav-list {
+		box-shadow: none;
+		margin-top: 0;
+	}
+	.textyalow {
+		margin-top: 0;
+	}
+   .nav-item {
+      width: 27vw;
+      height: 63px;
    }
 }
