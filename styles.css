@@ -295,7 +295,7 @@ h2 {
 @media (max-width: 639px) {
    
 	.firstscrin {
-		display: none;
+		/*display: none;*/
 	}
 	.secondscreen {
 		display: none;
@@ -315,20 +315,26 @@ h2 {
 		border: 0;
 	}
 	.fon1 {
+      display: flex;
+      flex-direction: column;
 		background-image: none;
-		height: 386px;
+		height: 390px;
+      margin: 0;
+		padding: 0;
 	}
 	.header {
-      display: flex;
+      display: flex;    
 		width: 100%;
       max-width: 640px;
 		height: 71px;
       padding: 0;
+      margin: 0;
 	}
 	.star {
 		background-color: #575757;
-		width: 94vw;
+		width: 30vw;
       height: 63px;
+      align-items: center;
 	}
 	.img {
 		width: 40px;
@@ -339,13 +345,54 @@ h2 {
 	}
 	.nav-list {
 		box-shadow: none;
-		margin-top: 0;
+		margin-top: 0;  
 	}
 	.textyalow {
 		margin-top: 0;
 	}
    .nav-item {
-      width: 27vw;
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+     /* width: 27vw;*/
       height: 63px;
    }
+   .nav-link, li, a {
+      vertical-align: middle;
+      text-align: start;
+   }
+   .navbox {
+      margin: 0px;
+      padding: 0px;
+      width: 70vw;
+   }
+   .nav-link {
+      display: flex;
+      align-items: center;    
+   }
+   /*firstscreen*/
+   .fon1 {
+      height: 390px;
+   }
+   .firstscrin {
+      display: block;
+      padding: 0;
+      margin: 0;
+
+   }
+   .maintextbox {
+      display: none;
+   }
+   .tv {
+      padding: 0;
+      margin: 0;
+      width: 100vw;
+      max-width: 639px;
+      width: 100%;
+   }
+   .leftbutton, .rightbutton {
+      display: none;
+   }
+   
 }
