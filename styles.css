@@ -299,7 +299,7 @@ h2 {
 		/*display: none;*/
 	}
 	.secondscreen {
-		display: none;
+		/*display: none;*/
 	}
 	.threetscreen {
 		display: none;
@@ -402,6 +402,21 @@ h2 {
    }
    .leftbutton, .rightbutton {
       display: none;
+   }
+
+   /*second screen*/
+   .secondscreen {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+   .cloud,
+   .leaf,
+   .plain {
+     /* display: flex;
+      flex-direction: column;
+      justify-content: center;*/
    }
    
 }
