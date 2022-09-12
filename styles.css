@@ -213,6 +213,9 @@ h2 {
 .linescrool {
 	margin: 0 17% 0 17%;
 }
+.tellbox{
+   display: none;
+}
 /*four screen*/
 .fourscreen {
 	background-image: url("/assets/images/fon3.jpg");
@@ -302,7 +305,7 @@ h2 {
 		/*display: none;*/
 	}
 	.threetscreen {
-		display: none;
+		/*display: none;*/
 	}
 	.fourscreen {
 		display: none;
@@ -418,5 +421,42 @@ h2 {
       flex-direction: column;
       justify-content: center;*/
    }
-   
+
+   /*threet screen*/
+   .boxdata,
+   .linescrool,
+   .h2screen3 {
+      display: none;
+   }
+   .threetscreen {
+      background-image: none;
+   }
+   .videobox {
+      display: flex;
+      flex-wrap: wrap;
+   }
+   .leftbox {
+      width: 47vw;
+      margin: 2px 1px 2px 2px;
+   }
+   .centrbox {
+      width: 47vw;
+      margin: 2px 2px 2px 1px;
+   }
+   .rightbox {
+      display: flex;
+      width: 96vw;
+   }
+   .twitter{
+      display:;
+      width: 160px;
+      height: 134px;
+   }
+   .iconplusright{
+      display: none;
+   }
+   .tellbox{
+      display: block;
+      width: 45vw;
+   }
 }
