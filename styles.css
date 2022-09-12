@@ -444,19 +444,31 @@ h2 {
       margin: 2px 2px 2px 1px;
    }
    .rightbox {
-      display: flex;
+      display: flex;    
       width: 96vw;
+      align-items: center;
+      
    }
    .twitter{
-      display:;
       width: 160px;
       height: 134px;
+      margin-top: 10%;
+      margin-left: 2.5%;
+      margin-right: 5%;
    }
    .iconplusright{
       display: none;
    }
    .tellbox{
       display: block;
-      width: 45vw;
+      
    }
+   .say1,
+   .say2,
+   .say3,
+   .say4 {
+      width: 45vw;
+      margin-bottom: 13px;
+   }
+
 }
