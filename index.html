@@ -18,6 +18,7 @@
             <img class="img" src="assets/images/star.png" alt="foto">
             <h3 class="textyalow">THEYALOW</h3>
          </div>
+
          <div class="navbox">
             <ul class="nav-list">
                <li class="nav-item starmobile"><a href="" class="nav-link"><img class="iconnav"
@@ -30,8 +31,21 @@
                         src="./assets/images/iconenvelope.png" alt="icon" />contact</a></li>
             </ul>
          </div>
+
+         <!--здесь меню бургер-->
+         <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+               <a href="#">about us</a>
+               <a href="#">services</a>
+               <a href="#">contact</a>
+            </div>
+         </div>
+
+         <span class="iconburger" onclick="openNav()">&#9776;</span>
       </div>
 
+      <!-- finish burger -->
       <div class="firstscrin">
          <div class="leftbutton">
             <img src="assets/images/iconleftbutton.jpg" alt="foto">
@@ -72,7 +86,10 @@
                <img class="iconplusleft" src="assets/images/iconplus.png" alt="foto">
             </div>
             <div class="centrbox">
-               <img class="playbutton" src="assets/images/playbutton.png" alt="foto">
+               <img class="image2tv" src="assets/images/image2.jpg" alt="foto">
+               <div class="playbutton">
+                  <img class="" src="assets/images/playbutton.png" alt="foto">
+               </div>
             </div>
             <div class="rightbox">
                <img class="twitter" src="assets/images/icontwitter.png" alt="foto">
@@ -115,6 +132,16 @@
          <h3 class="footertextyalow"><i>THEYALOW</i></h3>
       </div>
    </footer>
+   <!--скрипт для бургера-->
+
+   <script>
+      function openNav() {
+         document.getElementById("myNav").style.width = "100%";
+      }
+      function closeNav() {
+         document.getElementById("myNav").style.width = "0%"
+      }
+   </script>
 </body>
 
 </html>
