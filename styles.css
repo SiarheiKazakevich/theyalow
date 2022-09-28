@@ -692,6 +692,7 @@ h2 {
       /*         fourscreen      */
 
    .fourscreen {
+      background-image: url("/assets/images/fon3.jpg");
       display: block;
       width: 98vw;
       height: 370px;
