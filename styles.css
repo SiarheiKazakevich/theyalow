@@ -169,13 +169,29 @@ h2 {
 	width: 340px;
 	height: 230px;
 }
+.boximage2tv{
+   position: relative;
+   width: auto;
+   height: auto;
+   min-height: 230px;
+}
 .image2tv{
    height: 230px;
 }
-.rightbox {
-	background-color: #ec9e03;
-	width: 340px;
-	height: 230px;
+
+.playbutton {
+   position: absolute;
+   /*top: 188%;
+	left: 47%;*/
+   /*width: 75%;
+   height: 50%;*/
+   overflow: auto;
+   margin: auto;
+   top: 35%;
+   left: 38%;
+   bottom: 0;
+   right: 0;
+	
 }
 .videobox {
 	display: flex;
@@ -186,11 +202,10 @@ h2 {
 	margin-left: 100%;
 	margin-top: 22%;
 }
-.playbutton {
-   position: absolute;
-	padding-left: 4%;
-	/*margin-bottom: 20%;*/
-	padding-right: 4%;
+.rightbox {
+	background-color: #ec9e03;
+	width: 340px;
+	height: 230px;
 }
 .rightbox {
    /*width: 100vw;*/
@@ -202,6 +217,9 @@ h2 {
 }
 .iconplusright {
 	padding-left: 25%;
+}
+.tellbox{
+   display: none;
 }
 .boxdata {
 	background-color: #ddb101;
@@ -224,9 +242,7 @@ h2 {
 .linescrool {
 	margin: 0 17% 0 17%;
 }
-.tellbox{
-   display: none;
-}
+
 /*four screen*/
 .fourscreen {
 	background-image: url("/assets/images/fon3.jpg");
@@ -415,23 +431,34 @@ h2 {
       width: 48.5vw;
       margin: 2px 1px 2px 2px;
    }
-   .image2tv{
-      width: 47vw;
-   }
    .centrbox {
       width: 48.5vw;
       margin: 2px 2px 2px 1px;
    }
+   .boximage2tv{
+      position: relative;
+      width: auto;
+      height: auto;
+      min-height: 230px;
+   }
+   .image2tv{
+      /*position: absolute;*/
+      width: 47vw;
+   }
+   
    .playbutton{
-      position: absolute;
-     /* top: 10%;
-      right: 70%;
-      margin-left: 50%;*/
+   position: absolute;
+   /*top: 65%;
+   left: 65%;*/
+  /* top: 140%;
+	left: 70%;*/
+   left: 40%;
+  
    }
    .rightbox {
       display: flex;    
       width: 98vw;
-      justify-content: space-between;
+      justify-content: space-between ;
       align-items:center;
       margin-left: 0;
       margin-right: 0;
@@ -483,6 +510,29 @@ h2 {
       margin-right: 5%;
       text-align: center;
    }
+         /*         footer         */
+
+         .footerbox {
+            display: block;
+      
+           
+         }
+         .footerstar {
+            align-items: center;
+         }
+         .footerimg {
+           width: 5vw;
+           height: 3vh;
+           margin-top: 10px;
+       
+         }
+         .footertextyalow {
+            font-size: 15px;
+            text-align: center;
+            margin-top: 10px;
+         }
+      
+      
   
   
 }
@@ -655,9 +705,10 @@ h2 {
    }
    .playbutton{
       position: absolute;
-      top: 10%;
-      right: 10%;
-      margin-left: 10%;
+     /* top: 68%;
+      left: 63%;*/
+     /* top:147%;
+	   left: 67%;*/
    }
    .rightbox {
       display: flex;    
